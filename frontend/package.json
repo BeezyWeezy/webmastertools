@@ -4,12 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "vite",
-    "dev:backend": "node --watch backend/index.js",
-    "build": "tsc -b && vite build && cp -r dist backend/",
-    "start": "NODE_ENV=production node backend/index.js",
-    "lint": "eslint .",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
