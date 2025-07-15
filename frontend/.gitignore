@@ -1,0 +1,26 @@
+# 📦 Node
+node_modules/
+dist/
+
+# ⚙️ Vite
+.vite/
+
+# 💬 Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 🌱 Env
+.env
+.env.*.local
+
+# 💅 Editor junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 📦 lock-файлы (оставляй только тот, который используешь)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
